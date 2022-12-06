@@ -1,0 +1,9 @@
+---
+# tasks file for myrole
+- name: Test
+  hosts: localhost
+  tasks:
+      - name: Use test module
+        my_own_module:
+            path: ./
+            content: Hello1111
